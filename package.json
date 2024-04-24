@@ -1,0 +1,24 @@
+{
+  "name": "qtail.js",
+  "version": "1.6.1",
+  "description": "",
+  "main": "qtail.js",
+  "scripts": {
+    "test": "node qtail.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XiaozhiSans/qtail.js.git"
+  },
+  "keywords": [
+    "qtail",
+    "qtail.js",
+    "js"
+  ],
+  "author": "XiaozhiSans",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/XiaozhiSans/qtail.js/issues"
+  },
+  "homepage": "https://github.com/XiaozhiSans/qtail.js#readme"
+}
