@@ -4,7 +4,7 @@
 #### 1.html
 ```html
 <!-- 任选其一 -->
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/XiaozhiSans/qtail.js@1.6.1/qtail.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/XiaozhiSans/qtail.js/qtail.js"></script>
 <script type="text/javascript" src="https://xiaozhisans.github.io/qtail/js/qtail.js"></script>
 <script type="text/javascript" src="https://raw.githubusercontent.com/XiaozhiSans/qtail.js/main/qtail.js"></script>
 ```  
@@ -15,7 +15,7 @@ npm i XiaozhiSans/qtail.js
   
 ### 可用函数
 ```js
-qtail.getVer(); // 修改 html 中带有 "#verText" 的元素内容为 "Running qtail.js Stable v1.6.1"并返回 qtail.js 版本号,示例返回值: "v1.6.1"
+qtail.getVer(); // 在控制台输出 qtail.js 完整信息,并返回 qtail.js 版本号,示例返回值: "v1.6.1"
 qtail.generation(name, tail); // 生成带有小尾巴的昵称,示例返回值: "name⁧tail⁦"
 qtail.rstr(str); // 对字符串进行重整,示例返回值: "str"
 ```  
@@ -23,9 +23,10 @@ qtail.rstr(str); // 对字符串进行重整,示例返回值: "str"
 ### 扩展模块
 + qtail.js html 模块:
   - 引入 html:
+  > **注**:你可以通过[qtailLoader](https://github.com/XiaozhiSans/qtailLoader)实现自动化加载.
     ```html
     <!-- 任选其一 -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/XiaozhiSans/qtail@1.6.1/js/qtail.html.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/XiaozhiSans/qtail/js/qtail.html.js"></script>
     <script type="text/javascript" src="https://xiaozhisans.github.io/qtail/js/qtail.html.js"></script>
     <script type="text/javascript" src="https://raw.githubusercontent.com/XiaozhiSans/qtail/main/js/qtail.html.js"></script>
     ```  
