@@ -1,5 +1,6 @@
 ### qtail.js
-  
+[![npm publish status](https://github.com/XiaozhiSans/qtail.js/actions/workflows/npm-publish.yml/badge.svg)](#)
+
 如何使用:  
 #### 1.html
 ```html index.html
