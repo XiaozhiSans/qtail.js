@@ -1,6 +1,6 @@
 {
   "name": "qtail.js",
-  "version": "1.6.2",
+  "version": "1.7.0",
   "description": "",
   "main": "qtail.js",
   "scripts": {
@@ -13,7 +13,8 @@
   "keywords": [
     "qtail",
     "qtail.js",
-    "js"
+    "js",
+    "javascript"
   ],
   "author": "XiaozhiSans",
   "license": "MIT",
